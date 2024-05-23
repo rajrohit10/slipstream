@@ -68,6 +68,7 @@
     "test": "hardhat test",
     "test:all": "UPDATE_SNAPSHOT=1 yarn test",
     "format": "prettier --write 'test/**/*.ts'",
-    "format:check": "prettier --check 'test/**/*.ts'"
+    "format:check": "prettier --check 'test/**/*.ts'",
+    "deploy:saga": "hardhat run './deploy/deploy.js' --network saga"
   }
 }
